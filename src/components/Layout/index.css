@@ -1,0 +1,8 @@
+/* Write your CSS here */
+.layout-container {
+  width: 80%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}

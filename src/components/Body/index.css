@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  background-color: #f1f5f9;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.left-navbar-container {
+  background-color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px;
+  flex-grow: 1;
+}
+
+.left-navbar-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+
+.item {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  align-self: center;
+}
+
+.middle-container {
+  margin: 20px;
+  width: 60%;
+}
+
+.right-container {
+  border: 1px solid #64748b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 90%;
+  height: 90px;
+  margin-bottom: 20px;
+}
